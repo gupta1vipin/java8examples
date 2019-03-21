@@ -1,18 +1,17 @@
 # java8examples
-Java 8 Examples
 
-Coverin following points and changes...
+### Array Parallel Sort
 
-java8.arrayparallelsort
+### Date Time API
 
-java8.datetime
+### Interface Default Method
 
-java8.interfacedefaultmethod
+### Interface Static Method
 
-java8.interfacestaticmethod
+### Stream API
 
-java8.streamapi
+### Lambda Expressions
 
-java8.stringjoiner
+### Type Inrference 
 
-java8.typeinterfernce
+### String Joiner
