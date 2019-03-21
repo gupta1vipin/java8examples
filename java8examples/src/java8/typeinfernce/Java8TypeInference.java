@@ -1,4 +1,4 @@
-package java8.typeinterfernce;
+package java8.typeinfernce;
 
 import java.util.HashMap;
 import java.util.Map;
