@@ -6,7 +6,7 @@ import java.util.List;
 public class Java7ForEachFunction {
 
 	public static void main(String[] args) {
-        List<String> countryList = new ArrayList();
+        List<String> countryList = new ArrayList<>();
         
         //Add elements to the countryList
         countryList.add("India");

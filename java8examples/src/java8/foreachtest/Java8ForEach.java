@@ -8,7 +8,7 @@ public class Java8ForEach {
 	public static void main(String[] args)
     {
         //Create a new ArrayList
-        List<String> countryList = new ArrayList();
+        List<String> countryList = new ArrayList<>();
         
         //Add elements to the countryList
         countryList.add("India");
