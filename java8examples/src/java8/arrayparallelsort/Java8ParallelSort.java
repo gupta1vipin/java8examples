@@ -14,7 +14,7 @@ public class Java8ParallelSort {
        long parallel = performParallelSort();
        System.out.println("Time Taken by parallel sort : "+parallel);
 
-       System.out.println("\n %age difference : " + (normal-parallel)*100/normal + "%");
+       System.out.println("\n %age improvement : " + (normal-parallel)*100/normal + "%");
        
 	}
 	

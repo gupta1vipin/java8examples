@@ -1,4 +1,4 @@
-package java8.lambdaexpression;
+package java8.functionalinterfacetest;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -7,7 +7,7 @@ import java.util.List;
 import sampledata.BookPojo;
 import sampledata.LibrarySampleData;
 
-public class ComparatorTest {
+public class ComparatorBeforeJava8Test {
 
 	public static void main(String[] args) {
 

@@ -11,7 +11,7 @@ public class StreamComparissionExample {
 
 	public static void main(String[] args) {
 
-		List<BookPojo> library = LibrarySampleData.prepareSampleData(50);
+		List<BookPojo> library = LibrarySampleData.prepareSampleData(5000);
 		//System.out.println("sampleData..." + library);
 		
 		long sequentialTime = sequentialStreamTest(library);
@@ -20,7 +20,7 @@ public class StreamComparissionExample {
 		long parallelTime = sequentialStreamTest(library);
 		System.out.println("parallelTime Stream (time) : "+ parallelTime);
 		
-		System.out.println("%age difference : "+ (sequentialTime-parallelTime)*100/sequentialTime);
+		System.out.println("%age improvement : "+ (sequentialTime-parallelTime)*100/sequentialTime);
 
 
 	}

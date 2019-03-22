@@ -1,4 +1,4 @@
-package java8.lambdaexpression;
+package java8.functionalinterfacetest;
 
 public class RunnableTest {
 
