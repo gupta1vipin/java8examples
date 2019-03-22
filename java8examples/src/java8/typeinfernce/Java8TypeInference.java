@@ -28,7 +28,7 @@ public class Java8TypeInference {
 		Map<String, Map<String, Object>> map = new HashMap<String, Map<String, Object>>(); 
 		genericMethod(map);
 		
-		//DOES NOT WORK  :( 
+		//DOES NOT WORK in Java 5 :( 
 		Map<String, Map<String, Object>> map1 = new HashMap<>();
 		genericMethod(new HashMap<>());  
 	}
@@ -38,7 +38,7 @@ public class Java8TypeInference {
 		// WORKS.. :)
 		Map<String, Map<String, Object>> map = new HashMap<>(); 
 		
-		//DOES NOT WORK  :( 
+		//DOES NOT WORK in Java 7 :( 
 		genericMethod(new HashMap<>());
 	}
 	
