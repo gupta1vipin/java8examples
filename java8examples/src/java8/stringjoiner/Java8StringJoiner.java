@@ -8,9 +8,7 @@ public class Java8StringJoiner {
 		
 		simpleStringJoin();
 		
-		
 		stringJoinWithPrefixAndSuffix();
-
 	}
 
 	private static void simpleStringJoin() {
